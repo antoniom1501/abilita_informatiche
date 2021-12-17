@@ -115,3 +115,24 @@ s.add(4)
 print(s)
 s.update(('lmn',5))
 print(s)
+
+#------------------------------------
+
+i=1
+while i in list(range(1,10)):
+  if i==6:
+    break
+  else:
+    print(i)
+    i=i+1
+
+print()
+
+for i in list(range(1,10)):
+  if i==6:
+    break
+  else:
+    print(i)
+
+
+  
